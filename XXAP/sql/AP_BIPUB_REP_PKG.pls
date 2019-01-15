@@ -22,5 +22,5 @@ CREATE OR REPLACE PACKAGE ap_bipub_rep_pkg AS
    PROCEDURE generate_xml(p_errbuf  OUT VARCHAR2
                          ,p_retcode OUT NUMBER);
 
-END aohr_bipub_rep_pkg;
+END ap_bipub_rep_pkg;
 /
