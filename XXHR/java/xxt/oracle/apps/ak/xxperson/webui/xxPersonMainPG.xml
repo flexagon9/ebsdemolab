@@ -6,7 +6,7 @@
          <ui:corporateBranding>
             <oa:image id="corporateBrandingImage" source="/OA_MEDIA/FNDSSCORP.gif"/>
          </ui:corporateBranding>
-         <ui:contents>
+         <ui:contents> 
             <oa:query id="QueryRN" mode="resultsBasedSearch" dispCustomized="true" dispAdvanced="true" dispSimple="true">
                <ui:contents>
                   <oa:table id="xxPersonDetailsVO1">
