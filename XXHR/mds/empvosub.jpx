@@ -3,7 +3,7 @@
 <JboProject
    Name="empvosub"
    SeparateXMLFiles="true"
-   PackageName="">
+   PackageName="" >
    <DesignTime>
       <Attr Name="_ejbPackage" Value="false" />
       <Attr Name="_NamedConnection" Value="VISR12" />
