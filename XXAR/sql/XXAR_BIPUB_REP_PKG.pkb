@@ -1,9 +1,10 @@
 --
-CREATE OR REPLACE PACKAGE BODY APPS.ap_bipub_rep_pkg IS
+--XXAR_BIPUB_REP_PKG.pkb comment updated on 1/28/2019 4:15 PM
+CREATE OR REPLACE PACKAGE BODY APPS.xxar_bipub_rep_pkg IS
 
   PROCEDURE generate_xml( p_errbuf  OUT VARCHAR2
                         , p_retcode OUT NUMBER) IS
-  BEGIN 
+  BEGIN
       FND_FILE.put_line(fnd_file.output, '<?xml version="1.0" encoding="UTF-8"?>');
       FND_FILE.put_line(fnd_file.output, '<Roster>');
       FND_FILE.put_line(fnd_file.output, ' <Week>');
@@ -12,6 +13,7 @@ CREATE OR REPLACE PACKAGE BODY APPS.ap_bipub_rep_pkg IS
       FND_FILE.put_line(fnd_file.output, '  <Tuesday>Emily</Tuesday>');
       FND_FILE.put_line(fnd_file.output, '  <Wednesday>Annie</Wednesday>');
       FND_FILE.put_line(fnd_file.output, '  <Thursday>James</Thursday>');
+      
       FND_FILE.put_line(fnd_file.output, '  <Friday>Gordon</Friday>');
       FND_FILE.put_line(fnd_file.output, '  <Saturday>Rosie</Saturday>');
       FND_FILE.put_line(fnd_file.output, '  <Sunday>Henry</Sunday>');
@@ -28,5 +30,5 @@ CREATE OR REPLACE PACKAGE BODY APPS.ap_bipub_rep_pkg IS
       FND_FILE.put_line(fnd_file.output, ' </Week>');
       FND_FILE.put_line(fnd_file.output, '</Roster>');
   end generate_xml;
-END ap_bipub_rep_pkg;
+END xxar_bipub_rep_pkg;
 /
