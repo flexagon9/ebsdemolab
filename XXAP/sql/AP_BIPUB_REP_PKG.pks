@@ -18,7 +18,7 @@ CREATE OR REPLACE PACKAGE ap_bipub_rep_pkg AS
 --     -------  -----------   ----------------    --------  --------------------------------------------
 --     1.0      25/07/2012    Brian Badenhorst    N/A       Initial Version
 --
--- DEMO COMMENT
+-- DEMO COMMENT.. for real this time
 -----------------------------------------------------------------------------------------------------
 
                        
