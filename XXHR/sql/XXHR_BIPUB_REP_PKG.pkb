@@ -1,6 +1,6 @@
 -- a demo comment and again
 --abcdef
---XXHR_BIPUB_REP_PKG.pkb comment updated on 10/21/2020
+--XXHR_BIPUB_REP_PKG.pkb comment updated on 10/21/2020 10:38AM
 CREATE OR REPLACE PACKAGE BODY APPS.xxhr_bipub_rep_pkg IS
 
   PROCEDURE generate_xml( p_errbuf  OUT VARCHAR2
