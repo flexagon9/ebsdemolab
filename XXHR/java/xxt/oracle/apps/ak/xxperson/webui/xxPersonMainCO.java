@@ -17,7 +17,7 @@ import oracle.apps.fnd.framework.* ;
 import java.io.Serializable;
 
 /**
- * Controller for ...
+ * Controller for Person
  */
 public class xxPersonMainCO extends OAControllerImpl
 {
